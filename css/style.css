@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower');
+
+@media only screen and (max-width: 400px) {
+body { font-size:60%;}
+}
+
+@media only screen and (max-width: 800px) {
+body { font-size:90%;}
+}
+
+@media only screen and (max-width: 1100px) {
+body { font-size:100%;}
+}
+
+body {
+  height: 1000px;
+}
+.slide {
+  background: url("../img/rada.jpg") center bottom 0 no-repeat fixed;
+  min-height: 100%;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+.slide1 {
+  background: url("../img/rada1.jpg") left 0 no-repeat fixed;
+  min-height: 100%;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+.slide2 {
+  background: url("../img/rada2.jpg") center bottom 0 no-repeat fixed;
+  min-height: 100%;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+.slide3 {
+  background: url("../img/rada3.jpg") center bottom 0 no-repeat fixed;
+  min-height: 100%;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+.slide4 {
+  background: url("../img/rada4.jpg") center bottom 0 no-repeat fixed;
+  min-height: 100%;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+h1, h2 {
+  text-align: center;
+  line-height: 1em;
+  color: #f7cec6;
+  font-family: 'Indie Flower', cursive;
+  font-size: 10em;
+  margin: 0;
+  padding-top: 300px;
+}
+
+h1 {
+  color: #1f0812;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  color: #f3b3a6;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: justify;
+  padding: 20px;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+mark {
+  opacity: 0.7;
+  padding: 0;
+  background-color: #3f292c;
+  color: #f3b3a6;
+}
